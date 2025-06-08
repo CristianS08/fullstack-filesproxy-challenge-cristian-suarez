@@ -1,0 +1,40 @@
+# dependencias
+/node_modules
+
+# builds
+/build
+
+# entorno y configuración
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor & sistema operativo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# testing
+/coverage
+
+# CRA
+public/manifest.json
+public/robots.txt
+*.tgz
+
+# Webpack o bundlers (si alguna vez ejectas)
+.cache/
+*.cache
+
+# Archivos locales temporales
+*.log
+*.local

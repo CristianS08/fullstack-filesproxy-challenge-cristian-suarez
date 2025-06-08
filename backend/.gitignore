@@ -1,0 +1,54 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+
+# dotenv
+.env
+
+# IDEs / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build artefacts (si usas Webpack o dist)
+dist/
+build/
+
+# Docker
+.dockerignore
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# NPM cache
+.npm
+
+# Editor swap files
+*.swp
+*.swo
+
+# Optional logs for test/debug
+*.out
+*.err
+
+# Ignore local test result logs
+test-results/
+
+# GitHub CLI
+.github/
+
+# Ignore compiled files (en caso de tener JS compilado)
+*.tsbuildinfo
